@@ -9,7 +9,7 @@ function password() {
         window.alert('access granted! welcome back, skibiditoilet69');
         window.location.href = "notebooks.html"; } 
     else {
-        window.alert('wrong username/password. ' + clickCount + ' attempts left.'); }
+        document.getElementById('display').innerHTML = 'wrong username/password. ' + clickCount + ' attempts left.'; }
     }
 // button click count
     let clickCount = 3;
